@@ -15,7 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "ros-rviz": "osrf/polymer-ros-rviz#master",
-    "web-animations-js": "^2.3.1"
+    "threejs": "https://raw.githubusercontent.com/mrdoob/three.js/r89/build/three.min.js",
+    "eventemitter2": "^6.4.0",
+    "ros-rviz": "https://github.com/yxzhan/polymer-ros-rviz.git",
+    "ros3djs": "https://raw.githubusercontent.com/yxzhan/ros3djs/master/build/ros3d.min.js"
   }
 }

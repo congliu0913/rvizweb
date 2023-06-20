@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-IMAGE=rvizweb
+xhost +local:docker
 
-docker run -it --privileged --rm --network="host" "${IMAGE}"
+docker-compose up
+
+xhost -local:docker
